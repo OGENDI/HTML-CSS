@@ -1,6 +1,7 @@
 body
 {
     margin: 0;
+    font-family: 'Caveat', cursive;
 }
 
 .container
@@ -34,7 +35,7 @@ body
 .flex-item
 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2em;
     padding: 1rem;
     text-align: center;
 }
@@ -87,3 +88,18 @@ body
     background-color: #1c4c56;
 }
 
+
+/* You can check css tricks for more information on font face */
+
+@font-face {
+    font-family: "My Font";
+    src: url(my-font.woff); /* relative path */
+    src: url(http://example.com/fonts/my-font.woff); /* absolute path */
+}
+
+/* Incase one uses font short, order matters where font-style, font-variant, and font-weight */
+/* font-variant= normal or small-caps only  */
+/* font-size/line-height  */
+/* font-family must be the last value specified  */
+
+/* font: italic small-caps bold 24px/1.5 Helvetica, sans-serif;  */
